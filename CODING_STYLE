@@ -1,0 +1,26 @@
+Code Guidelines
+
+Try to follow the style of the existing code.
+
+Limit Lines of Code to 120 characters.
+
+Try to limit Class Files to 300 lines of code.
+
+Write clean, modular code. Use the DRY principle (Don't Repeat Yourself).
+This makes the code easier to maintain and prolongs its usefulness.
+
+Create modules such as HomePage for methods that interact with the HomePage etc.
+
+Always write a JavaDoc comment above each method explaining it.
+
+Do not comment out code for later use. Use version code or branches for that.
+
+Avoid using a wait inside a test method. Insert it in a helper method instead.
+
+Starting Method Curly Brackets should not have their own line ie. "public static void methodName() { ...".
+
+Variables placed before methods in a class.
+
+Private methods placed before public methods in a class.
+
+Use the StringRef file for Strings whenever possible. Avoid Hardcoding Strings.
